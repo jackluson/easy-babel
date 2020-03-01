@@ -1,0 +1,29 @@
+{
+  "name": "easy-babel",
+  "version": "0.0.1",
+  "description": "An easy bundler referring to babel",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackluson/easy-babel.git"
+  },
+  "keywords": [
+    "bundler",
+    "babel"
+  ],
+  "author": "jackluson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jackluson/easy-babel/issues"
+  },
+  "homepage": "https://github.com/jackluson/easy-babel#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/parser": "^7.4.2",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/traverse": "^7.4.0"
+  }
+}
